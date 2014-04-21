@@ -1,0 +1,132 @@
+html, body {
+	background-color:#e8e7e4;
+	margin: auto; 
+	font-size:14px;
+	font-family: Tahoma, "Myriad Pro", Arial, Helvetica, sans-serif;
+}
+
+
+header {
+	margin-top: 140px;
+	border-top: 1px solid #a6a59f;
+}
+
+#logo {
+	display: block;
+	border: none;
+	margin: -54px auto 0;
+	text-align: center;
+	color: #2286b9;
+	font-family: "Myriad Pro", Arial;
+	font-size: 1.15em;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 250px;
+	}
+	#logo img {
+		display: block;
+		height: 108px; width: 150px;
+		margin: 0 auto 15px;
+		background-color: #e8e7e4;
+		}
+		
+#social {	text-transform: none;	font-style: normal;	font-weight: normal;	text-decoration: none;	
+	border: none;
+	margin: 15px auto;
+	text-align: center;
+	width: 250px;
+			position: inherit;
+		z-index: 3;
+}
+#social a {
+text-decoration: none;
+}
+	#twitter img {
+		height: 35px; width: 35px;
+		margin: 0 auto;
+		text-decoration: none;
+		padding: 0 5px;
+		
+	}
+	
+
+	#linkedin img {
+		height: 35px; width: 35px;
+		margin: 0 auto;
+		text-decoration: none;
+				padding: 0 5px;
+
+	}
+
+	#dribbble img {
+		height: 35px; width: 35px;
+		margin: 0 auto;
+		text-decoration: none;
+				padding: 0 5px;
+
+	}
+	
+#leftbox {
+	margin-top: 25px;
+	padding: 10px;
+	font-size: 1.1em;
+	color: #646360;
+	background-color: #e1e0de;
+	}
+
+#leftbox p {
+	margin-top: 25px;
+	}
+	
+#pdflink a {text-decoration: none; color: #646360; text-align:left;  }
+#pdflink a img {height: 57px; width: 46px; text-decoration: none; color: #646360; padding-left: 25px; text-align:left; position: relative; top: 20px;}
+
+#portfolio {
+	margin-top: 20px;
+	text-align: center;
+	background-color:#e8e7e4;
+	}
+	
+#portfolio a img {
+	margin: 5px;
+	width: 145px;
+	height: 145px;
+	border: 4px;
+	border-color: white;
+	border-style: solid;
+	}
+
+
+
+/* For Desktop */
+@media all and (min-width:1150px) {
+	#logo {
+		margin: -54px 0 0 85px;
+		}
+	
+	#social {
+		margin: 5px 0 0 85px;
+		position: absolute;
+		z-index: 3;
+		}
+	aside {
+		width: 350px;
+		top: 0;
+		bottom: 0;
+		left: 35px;
+		position: absolute;
+		z-index: 1;
+		}
+
+		#leftbox {
+			position: absolute;
+			top: 265px;
+			bottom: 0;
+		}
+
+	#portfolio {
+		margin-top: -105px;
+		margin-left: 455px;
+		width: 675px;
+		}
+}
